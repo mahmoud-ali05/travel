@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+img{
+    height: 90px;
+}
+.parent{
+    background-image: url("./pic.jpg");
+    display: flex;
+    width: 100%;
+    height: 400px;
+}
+.child1{
+    display: flex;
+    flex-direction: column;
+    margin-right: 15%;
+    width: 75%;
+    justify-content: center;
+    align-items: center;
+
+}
+h1{
+    font-size: xx-large;
+    font-weight: bold;
+}
+p{
+    font-size: larger;
+}
+.child2{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 400px;
+}
+.mg{
+    height: calc(100%/3);
+}
