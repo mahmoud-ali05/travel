@@ -1,7 +1,4 @@
 
-body{
-    background-color: aquamarine;
-}
 *{
     margin: 0;
     padding: 0;
@@ -32,13 +29,4 @@ h1{
 }
 p{
     font-size: larger;
-}
-.child2{
-    display: flex;
-    flex-direction: column;
-    width: 25%;
-    height: 400px;
-}
-.mg{
-    height: calc(100%/3);
 }
