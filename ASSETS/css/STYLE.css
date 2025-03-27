@@ -1,20 +1,88 @@
+<<<<<<< HEAD
 
 *{
+=======
+body {
+    background-color: aquamarine;
+}
+
+* {
+>>>>>>> 64001d692843913e1acd46bc98a4466406231c95
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
-img{
+
+/* .css-mj795m {
+    grid-column: 1 / -1;
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 9.6rem;
+    margin-bottom: 4.8rem;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+}
+@media screen and (min-width: 600px) {
+    .css-6y9i9m {
+        margin-bottom: 2.4rem;
+    }
+}
+@media screen and (min-width: 600px) {
+    .css-6y9i9m {
+        font-size: 2.0rem;
+        line-height: 2.8rem;
+    }
+} 
+@media screen and (min-width: 600px) {
+    @media screen and (min-width: 600px) {
+        .css-ttonvj {
+            font-size: 6.0rem;
+            line-height: 7.2rem;
+        }
+    }
+}
+@media screen and (min-width: 600px) {
+    .css-ttonvj {
+        font-family: Ginto Nord, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 4.8rem;
+        line-height: 6rem;
+        margin-bottom: 2.4rem;
+    }
+} 
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+} */
+img {
     height: 90px;
 }
-.parent{
-    background-image: url("./pic.jpg");
+
+.parent {
+    background-image: url("../images/pic.jpg");
     display: flex;
     width: 100%;
     height: 400px;
 }
-.child1{
+
+.child1 {
     display: flex;
     flex-direction: column;
     margin-right: 15%;
@@ -23,10 +91,26 @@ img{
     align-items: center;
 
 }
-h1{
+
+h1 {
     font-size: xx-large;
     font-weight: bold;
 }
-p{
+
+p {
     font-size: larger;
 }
+<<<<<<< HEAD
+=======
+
+.child2 {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 400px;
+}
+
+.mg {
+    height: calc(100%/3);
+}
+>>>>>>> 64001d692843913e1acd46bc98a4466406231c95
