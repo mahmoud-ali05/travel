@@ -1,13 +1,5 @@
-<<<<<<< HEAD
-
-*{
-=======
-body {
-    background-color: aquamarine;
-}
 
 * {
->>>>>>> 64001d692843913e1acd46bc98a4466406231c95
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -100,17 +92,3 @@ h1 {
 p {
     font-size: larger;
 }
-<<<<<<< HEAD
-=======
-
-.child2 {
-    display: flex;
-    flex-direction: column;
-    width: 25%;
-    height: 400px;
-}
-
-.mg {
-    height: calc(100%/3);
-}
->>>>>>> 64001d692843913e1acd46bc98a4466406231c95
