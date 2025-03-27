@@ -12,7 +12,7 @@ img{
     height: 90px;
 }
 .parent{
-    background-image: url("./pic.jpg");
+    background-image: url("../images/pic.jpg");
     display: flex;
     width: 100%;
     height: 400px;
