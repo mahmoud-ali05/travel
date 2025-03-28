@@ -9,7 +9,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-.css-mj795m {
+/* .css-mj795m {
     grid-column: 1 / -1;
     position: relative;
     display: -webkit-box;
@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 100%;
     font-family: inherit;
     vertical-align: baseline;
-}
+} */
 img {
     height: 90px;
 }
