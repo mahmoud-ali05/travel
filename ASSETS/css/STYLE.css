@@ -8,7 +8,35 @@ body {
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+.logo_icon{
+    width: 50px;
+    height: 30px;
+}
 
+.cards-1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 100px auto ;
+}
+
+.cards-1 .one-card{
+    flex: 1;
+    min-width: 300px;
+    max-width: 350px;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+
+}
+  
+.one-card img{
+    height: 200px;
+}
 /* .css-mj795m {
     grid-column: 1 / -1;
     position: relative;
