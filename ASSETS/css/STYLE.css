@@ -5,12 +5,55 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-.logo_icon{
-    width: 50px;
-    height: 30px;
+
+.navi{
+    position: absolute;
+    left: 0;
+    z-index: 2;
+    font-size: 20px;
+}
+.navi img{
+    margin-right: 30px;
+    border-radius: 50%;
+}
+.navi .nav-link{
+    color: rgb(111, 86, 114) !important;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2px;
+}
+.navi a.nav-link{
+    margin: 10px;
+}
+.navi button{
+    background-color: rgba(240, 248, 255, 0.571) !important;
+    color: rgb(111, 86, 114) !important;
 }
 
-.cards-1{
+/* -------- HEADER ------------ */
+.video h1{
+    color: rgb(111, 86, 114) !important;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    letter-spacing: 2px;
+
+}
+img {
+    height: 90px;
+}
+
+.video p{
+    font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    font-size: 35px;
+    width: 770px;
+    letter-spacing: 2px;
+}
+ /* -------- Tour Cards ------------ */
+ 
+ .cards-1{
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
@@ -29,7 +72,7 @@
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
     transition: transform 0.3s ease;
     position: relative;
-    height: 430px;
+    height: 390px;
     border-radius: 50px;
 }
 
@@ -43,17 +86,6 @@
     height: 200px;
 }
 
-img {
-    height: 90px;
-}
-
-.parent {
-    background-image: url("../images/pic.jpg");
-    display: flex;
-    width: 100%;
-    height: 400px;
-}
-
 .child1 {
     display: flex;
     flex-direction: column;
@@ -61,55 +93,5 @@ img {
     width: 75%;
     justify-content: center;
     align-items: center;
-
 }
 
-h1 {
-    font-size: xx-large;
-    font-weight: bold;
-}
-
-p {
-    font-size: larger;
-}
-.navi{
-    position: absolute;
-    left: 0;
-    z-index: 2;
-    font-size: 20px;
-}
-.navi img{
-    margin-right: 30px;
-    background-color: rgb(251, 250, 250);
-    border-radius: 50%;
-}
-.navi .nav-link{
-    color: rgb(111, 86, 114) !important;
-    font-size: 20px;
-    font-weight: 600;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    letter-spacing: 2px;
-
-}
-.navi a.nav-link{
-    margin: 10px;
-}
-.navi button{
-    background-color: rgba(240, 248, 255, 0.571) !important;
-    color: rgb(111, 86, 114) !important;
-}
-.video h1{
-    color: rgb(111, 86, 114) !important;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: 900;
-    font-size: 40px;
-    letter-spacing: 2px;
-
-}
-.video p{
-    font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: 800;
-    font-size: 35px;
-    width: 770px;
-    letter-spacing: 2px;
-}
